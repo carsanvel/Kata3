@@ -20,6 +20,7 @@ public class HistogramDisplay extends ApplicationFrame {
         pack();
     }
     
+    
     public void execute() {
         setVisible(true);
     }
@@ -43,7 +44,5 @@ public class HistogramDisplay extends ApplicationFrame {
         }
         return dataset;
     }
-    
-    
     
 }

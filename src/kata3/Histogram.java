@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class Histogram<T> {
     
+    
     private final Map<T, Integer> map = new HashMap();
     
     public Integer get(T key) {
